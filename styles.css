@@ -53,34 +53,14 @@
 .text-box .skills{
     color: #00bfff;
 }
-.icon-box{
-    display: flex;
-    width: 150px;
-    justify-content: space-between;
-    margin-top: 35px;
-}
-.icon-box i{
-    color: var(--primary-color);
-    padding: 7px;
-    border: 2px solid var(--primary-color);
-    font-size: 20px;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: .2s;
-    animation: to_right 1s ease forwards .9s;
-}
-.icon-box i:hover{
-    color: white;
-    background-color: var(--primary-color);
-    box-shadow: 0 0 15px #00bfff;
-}
+
 .btn-box{
     width: 380px;
     display: flex;
     justify-content: space-between;
 }
 .btn{
-    margin-top: 40px;
+    margin-top: 20px;
     position: relative;
     color: black;
     width: 120px;
@@ -171,7 +151,36 @@
   gap: 40px;
 
 }
-
+.icon-box{
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+.icon-box a{
+  color: var(--primary-color);
+  padding: 7px;
+  font-size: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: .2s;
+  animation: to_right 1s ease forwards .9s;
+}
+.icon-box i:hover{
+  color: white;
+  background-color: var(--primary-color);
+  box-shadow: 0 0 15px #00bfff;
+}
+.icon-box i {
+  color: #00bfff;
+  padding: 5px;
+  border: 2px solid #00bfff;
+  font-size: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: .2s;
+  animation: to_right 1s ease forwards .9s;
+}
 .container .progress{
 
   position: relative;
