@@ -3,7 +3,7 @@ const navLinks = document.getElementById("nav-links");
 const menuBtnIcon = menuBtn.querySelector("i");
 
 var typed = new Typed((".skills"),{
-  strings : ["Frontend Developer","Ui designer","Public Speaker"],
+  strings : ["Frontend Developer","Ui designer","MYSql Developer"],
   typeSpeed : 100,
   backSpeed : 100,
   backDelay : 1000,

@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Mohamed Ashif Portfolio Website</title>
     <link rel="icon" href="Me.jpeg" type="image/x-icon">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -21,7 +21,7 @@
     href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
   />
   </head>
-  <body>
+  <body style="overflow-x:hidden; width:100vw; max-width:100vw;">
     <header class="header">
       <nav>
         <div class="nav__bar">
@@ -65,7 +65,7 @@
 
     <section class="section__container about__container" id="about">
       <div class="about__image">
-        <img src="assets/photo1.jpg" alt="about" />
+        <img src="assets/photo2.JPG" alt="about" />
       </div>
       <div class="about__content">
         <h2 class="section__header">Hi There I Am Mohamed Ashif</h2>
@@ -145,13 +145,31 @@
       </div>
       <div class="project__grid">
         <div class="project__card mix web">
-          <img src="assets/pro3.png" alt="project" />
+          <div class="project__info">
+            <h3 class="project__title">Build Complete Theme From Scratch</h3>
+            <img src="assets/Screenshot (263).png" alt="project" />
+            <p class="project__desc">I build a complete sports and fitness ecommerce website in shopify from scratch by writing liquid code.Checkout my project by click in below button and enter easy123 password to see live demo.</p>
+            <p style="margin-top:0.5rem;">Password: <span class="highlight">easy123</span></p>
+            <a href="https://theathletify.myshopify.com/" class="project__btn btn1" target="_blank">View Project</a>
+          </div>
         </div>
         <div class="project__card mix web">
-          <img src="assets/pro2.png" alt="project" />
+          <div class="project__info">
+            <h3 class="project__title">National Automobile Stocks</h3>
+            <img src="assets/Screenshot (265).png" alt="project" />
+            <p class="project__desc">I build a web app for the automobile shop to update their stocks and manage inventory with the integration of supabase as a backend.Checkout my project by click in the below button.</p>
+            <p style="margin-top:0.5rem;"><span class="highlight">CRUD</span> Based Website</p>
+            <a href="https://national-automobiles-stocks.netlify.app/index.html" class="project__btn btn1" target="_blank">View Project</a>
+          </div>
         </div>
         <div class="project__card mix web">
-          <img src="assets/pro1.png" alt="project" />
+          <div class="project__info">
+            <h3 class="project__title">Symposium Registration Website</h3>
+            <img src="assets/Screenshot (266).png" alt="project" />
+            <p class="project__desc">I build a symposium registration website using react with user authentication and real-time updates using Firebase and it also show the attendees list. Checkout my project by click in below button.</p>
+            <p style="margin-top:0.5rem;"><span class="highlight">React</span> Based Website</p>
+            <a href="https://event-register-react.netlify.app/register" class="project__btn btn1" target="_blank">View Project</a>
+          </div>
         </div>
     </section>
 
@@ -204,21 +222,17 @@
           <div class="footer__links">
             <a href="#">Web Design</a>
             <a href="#">Web Development</a>
-            <a href="#">Photography</a>
-            <a href="#">Videography</a>>
           </div>
         </div>
         <div class="footer__col">
           <h4>Support</h4>
           <div class="footer__links">
             <a href="#">Contact</a>
-            <a href="#">My Blog</a>
-            <a href="#">Privacy Policy</a>
           </div>
         </div>
       </div>
       <div class="footer__bar">
-        Copyright © 2024 Mohamed Ashif. All rights reserved.
+        Copyright © 2025 Mohamed Ashif. All rights reserved.
       </div>
     </footer>
     

@@ -1,3 +1,13 @@
+/* Highlighted text for project password */
+.highlight {
+  background: var(--primary-color);
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  box-shadow: 0 2px 8px rgba(0,191,255,0.10);
+}
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins&display=swap');@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
@@ -37,7 +47,7 @@
     overflow: hidden;
 }
 .text-box{
-    width: 80%;
+    width: 270px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -637,6 +647,24 @@ nav {
 .project__card img {
   width: 350px;
   height:200px;
+}
+ .project__info {
+   background: #22223a;
+   border-radius: 10px;
+   box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+   padding: 1rem 1.2rem;
+   margin-top: -0.5rem;
+   margin-bottom: 0.5rem;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 0.5rem;
+   transition: box-shadow 0.2s;
+ }
+ .project__card:hover .project__info {
+   box-shadow: 0 4px 24px rgba(0,191,255,0.12);
+ 
   border-radius: 5px;
   cursor: pointer;
 }
