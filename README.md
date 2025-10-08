@@ -10,8 +10,7 @@
 
 ## 🧠 Summary
 
-Enthusiastic and detail-oriented B.Tech student in Artificial Intelligence and Data Science with a strong passion for frontend web development, AI, and data science. Proven experience in building frontend applications using React. Adept at communication and leadership through Toastmasters.
-
+Enthusiastic and detail-oriented B.Tech student in Artificial Intelligence and Data Science with a strong passion for frontend web development, AI, and data science. Proven experience in building frontend applications using React.
 ---
 
 ## 🎓 Education
