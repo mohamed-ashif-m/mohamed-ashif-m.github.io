@@ -46,13 +46,6 @@ _2025 – Present_
 
 ---
 
-## 🏅 Achievements
-
-- Active member of **Toastmasters Club**, known for leadership and public speaking
-- Organizing multiple events by assigning role for everyone 
-
----
-
 ## 📢 Certifications
 
 - Design for Developers – Frontend Mastery 
