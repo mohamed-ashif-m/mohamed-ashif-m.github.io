@@ -179,6 +179,13 @@ Portfolio/
 📍 Colachel, Tamil Nadu, India
 ```
 
+## 📦 Deployment
+
+This portfolio is deployed via GitHub Pages at:
+
+https://mohamed-ashif-m.github.io/
+
+
 ---
 
 ```
