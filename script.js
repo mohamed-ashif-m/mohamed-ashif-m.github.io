@@ -1,15 +1,15 @@
 // GSAP and Lenis imports for animations and smooth scroll
-import gsap from 'https://cdn.skypack.dev/gsap';
-import { ScrollTrigger } from 'https://cdn.skypack.dev/gsap/ScrollTrigger';
-import { SplitText } from 'https://cdn.skypack.dev/gsap/SplitText';
-import { Flip } from 'https://cdn.skypack.dev/gsap/Flip';
+import gsap from 'https://cdn.jsdelivr.net/npm/gsap@3.12.5/+esm';
+import { ScrollTrigger } from 'https://cdn.jsdelivr.net/npm/gsap@3.12.5/ScrollTrigger/+esm';
+import { Flip } from 'https://cdn.jsdelivr.net/npm/gsap@3.12.5/Flip/+esm';
 import Lenis from 'https://esm.sh/lenis@1.3.13?target=es2020';
 
-// Mobile Chrome viewport fix
+// Local utilities
+import { SplitText } from './utils/splitText.js';
 import { initViewportFix } from './utils/viewportFix.js';
 
 document.addEventListener("DOMContentLoaded", () => {
-    gsap.registerPlugin(ScrollTrigger, SplitText, Flip);
+    gsap.registerPlugin(ScrollTrigger, Flip);
     
     // Initialize viewport fix before ScrollTriggers
     try { initViewportFix(); } catch (e) { console.warn('initViewportFix failed', e); }
@@ -2353,5 +2353,11 @@ function initIntroBackgroundDots() {
         clearTimeout(resizeTimer);
         resizeTimer = setTimeout(resize, 120);
     });
+
+    // Set dynamic year in footer
+    const footerYear = document.getElementById('footer-year');
+    if (footerYear) {
+        footerYear.textContent = new Date().getFullYear();
+    }
 
 }
